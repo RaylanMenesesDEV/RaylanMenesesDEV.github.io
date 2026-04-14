@@ -5,7 +5,7 @@ const projetos = [
 {
 nome:"Portfólio Pessoal",
 descricao:"Site de portfólio criado com HTML, CSS e JavaScript.",
-link:"https://seusite.com/portfolio"
+link:"https://github.com/RaylanMenesesDEV?tab=repositories"
 },
 
 {
