@@ -316,6 +316,64 @@ color:#e61212;
   transition: 0.3s;
 }
 
+/* BOTÃO */
+.theme-btn {
+  margin-left: 15px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* 🌙 DARK MODE (padrão) */
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* ☀️ LIGHT MODE */
+body.light {
+  background: #f1f5f9;
+  color: #111;
+}
+
+/* ajustar textos */
+body.light h1,
+body.light h2,
+body.light p,
+body.light a {
+  color: #111;
+}
+
+/* navbar */
+body.light header {
+  background: rgba(255,255,255,0.8);
+}
+
+/* cards */
+body.light .sobre-card,
+body.light .contato-card {
+  background: #ffffff;
+  color: #111;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* inputs */
+body.light input,
+body.light textarea {
+  background: #fff;
+  color: #111;
+  border: 1px solid #ccc;
+}
+
 .form-contato button:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(255,0,0,0.6);
