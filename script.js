@@ -5,7 +5,7 @@ const projetos = [
 {
 nome:"Portfólio Pessoal",
 descricao:"Site de portfólio criado com HTML, CSS e JavaScript.",
-link:"https://github.com/RaylanMenesesDEV?tab=repositories"
+link:"https://seusite.com/portfolio"
 },
 
 {
@@ -88,6 +88,7 @@ const btn = document.getElementById("toggleTheme");
 btn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const sobreCard = document.querySelector(".sobre-card");
